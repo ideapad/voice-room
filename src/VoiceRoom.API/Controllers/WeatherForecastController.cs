@@ -15,6 +15,11 @@ namespace VoiceRoom.API.Controllers
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
+        
+        private static readonly string[] SummariesDoulbe = new[]
+                {
+                    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Another One"
+                };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
@@ -31,7 +36,7 @@ namespace VoiceRoom.API.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
+                Summary = SummariesDoulbe[rng.Next(SummariesDoulbe.Length)]
             })
             .ToArray();
         }
