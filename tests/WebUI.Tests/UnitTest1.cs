@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace VoiceRoom.API.Tests
+namespace WebUI.Tests
 {
     public class UnitTest1
     {

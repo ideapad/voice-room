@@ -1,6 +1,6 @@
 using System;
 
-namespace VoiceRoom.API
+namespace WebUI
 {
     public class WeatherForecast
     {
