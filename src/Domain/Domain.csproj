@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>voice_room.Domain</RootNamespace>
+    <AssemblyName>voice_room.Domain</AssemblyName>
+  </PropertyGroup>
+
+</Project>
